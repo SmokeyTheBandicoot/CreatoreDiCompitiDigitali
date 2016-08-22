@@ -145,10 +145,10 @@
   <data name="facebook_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\facebook off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="email off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="email_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\email off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="email on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="email_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\email on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

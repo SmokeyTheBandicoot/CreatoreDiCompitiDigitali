@@ -65,7 +65,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property email_off() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("email off", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("email_off", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -75,7 +75,7 @@ Namespace My.Resources
         '''</summary>
         Friend ReadOnly Property email_on() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("email on", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("email_on", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
