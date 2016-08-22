@@ -188,9 +188,13 @@ Public Class AreaAmministratore
     End Sub
 
     Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
-        If MsgBox("Sei sicuro di voler cancellare questa domanda dal progetto?", MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
-            Questions.RemoveAt(ListBox1.SelectedIndex)
-            UpdateListboxes()
+        If Not ListBox1.SelectedIndex = -1 Then
+            If MsgBox("Sei sicuro di voler cancellare questa domanda dal progetto?", MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
+                Questions.RemoveAt(ListBox1.SelectedIndex)
+                UpdateListboxes()
+            Else
+                MsgBox("Prima di eliminare una domanda è necessario selezionarla dalla lista di domande", MsgBoxStyle.Critical)
+            End If
         End If
     End Sub
 
@@ -198,6 +202,7 @@ Public Class AreaAmministratore
         If MsgBox("Sei sicuro di voler cancellare tutte le domande del progetto?", MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
             Questions.Clear()
             UpdateListboxes()
+            MsgBox("Pulita la lista di domande", MsgBoxStyle.Information)
         End If
     End Sub
 

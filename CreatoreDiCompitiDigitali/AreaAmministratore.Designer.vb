@@ -276,7 +276,7 @@ Partial Class AreaAmministratore
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.ToolStripMenuItem1, Me.InserisciToolStripMenuItem, Me.AiutoToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1428, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1424, 24)
         Me.MenuStrip1.TabIndex = 28
         Me.MenuStrip1.Text = "Barra dei menu"
         '
@@ -338,7 +338,7 @@ Partial Class AreaAmministratore
         Me.Button2.ForeColor = System.Drawing.Color.Black
         Me.Button2.Location = New System.Drawing.Point(6, 471)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(611, 28)
+        Me.Button2.Size = New System.Drawing.Size(607, 28)
         Me.Button2.TabIndex = 42
         Me.Button2.Text = "Aggiungi domanda"
         Me.ToolTip1.SetToolTip(Me.Button2, "Aggiunge una nuova domanda con gli elementi immessi a sinistra")
@@ -351,7 +351,7 @@ Partial Class AreaAmministratore
         Me.Button3.ForeColor = System.Drawing.Color.Black
         Me.Button3.Location = New System.Drawing.Point(6, 539)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(611, 28)
+        Me.Button3.Size = New System.Drawing.Size(607, 28)
         Me.Button3.TabIndex = 43
         Me.Button3.Text = "Cancella domanda"
         Me.ToolTip1.SetToolTip(Me.Button3, "Cancella la domanda selezionata dal progetto (richiede conferma)")
@@ -364,7 +364,7 @@ Partial Class AreaAmministratore
         Me.Button4.ForeColor = System.Drawing.Color.Black
         Me.Button4.Location = New System.Drawing.Point(6, 573)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(611, 28)
+        Me.Button4.Size = New System.Drawing.Size(607, 28)
         Me.Button4.TabIndex = 44
         Me.Button4.Text = "Cancella tutte le domande"
         Me.ToolTip1.SetToolTip(Me.Button4, "Elimina tutte le domande dal progetto (richede conferma)")
@@ -785,7 +785,7 @@ Partial Class AreaAmministratore
         Me.Button5.ForeColor = System.Drawing.Color.Black
         Me.Button5.Location = New System.Drawing.Point(6, 505)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(611, 28)
+        Me.Button5.Size = New System.Drawing.Size(607, 28)
         Me.Button5.TabIndex = 59
         Me.Button5.Text = "Aggiorna domanda"
         Me.ToolTip1.SetToolTip(Me.Button5, "Salva gli elementi di una domanda preesistente, selezionata in precedenza dall'ut" &
@@ -799,7 +799,7 @@ Partial Class AreaAmministratore
         Me.Button6.ForeColor = System.Drawing.Color.Black
         Me.Button6.Location = New System.Drawing.Point(6, 607)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(611, 28)
+        Me.Button6.Size = New System.Drawing.Size(607, 28)
         Me.Button6.TabIndex = 60
         Me.Button6.Text = "Pulisci caselle di testo"
         Me.ToolTip1.SetToolTip(Me.Button6, "Svuota rapidamente i comandi di immissione della domanda per una rapida immission" &
@@ -821,7 +821,7 @@ Partial Class AreaAmministratore
         Me.GroupBox3.ForeColor = System.Drawing.Color.Black
         Me.GroupBox3.Location = New System.Drawing.Point(801, 55)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(623, 656)
+        Me.GroupBox3.Size = New System.Drawing.Size(619, 656)
         Me.GroupBox3.TabIndex = 66
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Domande"
@@ -837,7 +837,7 @@ Partial Class AreaAmministratore
         Me.ListBox1.Name = "ListBox1"
         Me.ListBox1.ScrollAlwaysVisible = True
         Me.ListBox1.SelectionMode = System.Windows.Forms.SelectionMode.MultiExtended
-        Me.ListBox1.Size = New System.Drawing.Size(617, 424)
+        Me.ListBox1.Size = New System.Drawing.Size(613, 424)
         Me.ListBox1.TabIndex = 41
         '
         'AreaAmministratore
@@ -845,7 +845,7 @@ Partial Class AreaAmministratore
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None
         Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImage = Global.BiTTest.My.Resources.Resources.Square
-        Me.ClientSize = New System.Drawing.Size(1428, 741)
+        Me.ClientSize = New System.Drawing.Size(1424, 741)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
