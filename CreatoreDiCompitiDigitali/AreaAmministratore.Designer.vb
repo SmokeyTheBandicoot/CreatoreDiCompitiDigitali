@@ -441,8 +441,9 @@ Partial Class AreaAmministratore
         Me.CheckBox3.Size = New System.Drawing.Size(140, 24)
         Me.CheckBox3.TabIndex = 72
         Me.CheckBox3.Text = "Esercitazione"
-        Me.ToolTip1.SetToolTip(Me.CheckBox3, "Se il progetto è un'esercitazione, il risultato del test non sarà mostrato all'ut" &
-        "ente, ma scritto in un file criptato.")
+        Me.ToolTip1.SetToolTip(Me.CheckBox3, "Se il progetto è un'esercitazione, il risultato del test sarà mostrato all'utente" &
+        ", oltre che al docente. In caso contrario, esso sarà scritto in un file criptato" &
+        ", leggibile solo dal docente.")
         Me.CheckBox3.UseVisualStyleBackColor = False
         '
         'Label17

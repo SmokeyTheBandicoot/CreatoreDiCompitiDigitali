@@ -137,6 +137,9 @@
 -Attivata (spuntata): verrà chiesta la conferma per l'inserimento della domanda anche se non ha alcun aiuto (casella aiuto vuota). Disattivabile tenendo premuto Ctrl.
 -Disattivata (vuota): non verrà chiesta conferma per l'inserimento della domanda priva di aiuto, a meno che non si tenga premuto Ctrl.</value>
   </data>
+  <metadata name="ToolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>526, 6</value>
+  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>25</value>
   </metadata>

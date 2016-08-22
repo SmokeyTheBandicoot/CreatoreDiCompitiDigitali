@@ -507,13 +507,15 @@ Public Class AreaCompito
     End Sub
 
     Private Sub RestartTSMI_Click(sender As System.Object, e As System.EventArgs) Handles RestartTSMI.Click
-        Try
-            OpenProject(OpenFileDialog1.FileName)
-        Catch ex As FileNotFoundException
-            MsgBox("ERRORE: impossibile ricominciare il progetto: File non trovato. Cliccare su File-->Apri Progetto e aprire nuovamente il progetto per ricominciare", MsgBoxStyle.Critical)
-        Catch ex As Exception
-            MsgBox("ERRORE: impossibile ricominciare il progetto. Cliccare su File-->Apri Progetto e aprire nuovamente il progetto per ricominciare", MsgBoxStyle.Critical)
-        End Try
+        If MsgBox("Sei sicuro di voler ricominciare il progetto? Tutte le risposte saranno azzerate.", MsgBoxStyle.YesNo) = MsgBoxResult.Yes Then
+            Try
+                OpenProject(OpenFileDialog1.FileName)
+            Catch ex As FileNotFoundException
+                MsgBox("ERRORE: impossibile ricominciare il progetto: File non trovato. Cliccare su File-->Apri Progetto e aprire nuovamente il progetto per ricominciare", MsgBoxStyle.Critical)
+            Catch ex As Exception
+                MsgBox("ERRORE: impossibile ricominciare il progetto. Cliccare su File-->Apri Progetto e aprire nuovamente il progetto per ricominciare", MsgBoxStyle.Critical)
+            End Try
+        End If
     End Sub
 
     Private Sub AreaCompito_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
